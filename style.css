@@ -99,9 +99,11 @@ body {
 }
 
 /* New custom text and background colors */
-.text-primary-blue {
+.text-primary-blue ,.text-primary-blue a  {
     color: #085faf;
+    text-decoration: none;
 }
+
 .bg-light-blue {
     background-color: #e0f2f7; /* Lighter shade of blue for icon backgrounds */
 }
