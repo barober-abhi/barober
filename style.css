@@ -287,18 +287,19 @@ body {
 
 /* Custom style for larger phone numbers */
 .large-phone-number, .large-phone-number a {
-    font-size: 1.8rem; /* Larger font size */
+    font-size: 2.2rem; /* Larger font size */
     font-weight: 700; /* Ensure it's bold */
     color: #ffffff; /* Changed to white */
     margin-bottom: 0.5rem; /* Add some space below each number */
     transition: transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out; /* Added transition */
+    text-decoration: none;
 }
 .large-phone-number:hover {
     transform: scale(1.05); /* Slightly enlarge on hover */
     text-shadow: 0 0 10px rgba(255,255,255,0.8); /* Subtle glow effect */
 }
 @media (min-width: 768px) {
-    .large-phone-number {
+    .large-phone-number , .large-phone-number a  {
         font-size: 2.2rem; /* Even larger on desktop */
     }
 }
