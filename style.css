@@ -286,7 +286,7 @@ body {
 }
 
 /* Custom style for larger phone numbers */
-.large-phone-number {
+.large-phone-number, .large-phone-number a {
     font-size: 1.8rem; /* Larger font size */
     font-weight: 700; /* Ensure it's bold */
     color: #ffffff; /* Changed to white */
